@@ -529,14 +529,16 @@ body {
   background: #D5DCEE;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   width: 50px;
   height: 50px;
   background-image: url(../img/strela.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
   content: "" !important;
 }
 
